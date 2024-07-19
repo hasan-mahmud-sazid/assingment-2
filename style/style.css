@@ -21,6 +21,14 @@
     font-size: 1.125rem;
     font-weight: 600;
 }
+.display-flex{
+    display: flex;
+}
+.heading{
+    font-size: 4.875rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
 
 /* Shared Style */
 
@@ -32,7 +40,7 @@
 }
 .nav-logo{
     font-weight: 800;
-    font-style: italic;
+    font-style: 'italic';
     font-size: 2.25rem;
     color: rgb(230, 83, 60);;
 }
@@ -58,10 +66,10 @@
     display: flex;
     margin: 0 auto;
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(255, 144, 144, 0) 100%);
+    justify-content: center;
+    align-items: center;
 }
-.banner-contain{
-    margin-left: 11.671vw;
-}
+
 #miama-font{
     font-family: 'Miama', sans-serif;
 }
@@ -76,19 +84,74 @@
     border-radius: 42px;
 }
 .banner-right{
-    
+    position: relative;
 }
 #banner-img{
-    width: 400px;
+    width: 100%;
+}
+#btn-circle{
+    width: 40px;
+    height: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+    margin-right: 12px;
 }
 .btn-secondary{
+    position: absolute;
     width: 206px;
     height: 96px;
     color: white;
-    text-align: center;
     background: rgba(48, 48, 48, 0.54);
     border-radius: 12px;
     border: none;
-    margin-right: -100px;
+    top: 70%;
+    left: -35%;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-secondary-top{
+    top: 20%;
+    left: 60%;
+}
+.videos-number{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.free-workout{
+    justify-content: start;
+    align-items: flex-start;
+    text-align: start;
+}
+.habits{
+    text-align: center;
+}
+.habit-images{
+    justify-content: center;
+}
+.habit-description{
+    font-size: 20px;
+}
+.habit-card{
+    width: 300px;
+}
+.habit-card>img{
+    border-radius: 50%;
+}
+.extra-mile{
+    width: 1440px;
+    margin: 0 auto;
+    border: 2px solid red;
+    background: rgba(48, 48, 48, 0.54);
+    display: flex;
+}
+.extra-mile-contain{
+    width: 50%;
+    margin-right: 200px;
+}
 
+#run-img{
+    width: 100%;
+    align-items: center;
 }
