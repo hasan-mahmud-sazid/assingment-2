@@ -139,19 +139,32 @@
 .habit-card>img{
     border-radius: 50%;
 }
-.extra-mile{
+.extra-mile-contain{
     width: 1440px;
     margin: 0 auto;
-    border: 2px solid red;
     background: rgba(48, 48, 48, 0.54);
     display: flex;
+    border-radius: 18px;
+    margin-top: 70px;
 }
-.extra-mile-contain{
-    width: 50%;
-    margin-right: 200px;
+.left-contain{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
 }
-
+#left-contain-articale{
+    width: 500px;
+    margin: 40px 0px ;
+    margin-left: 55px;
+}
+.heading{
+    margin: 0px;
+}
+.right-contain{
+    width: 40%;
+    padding: 30px;
+}
 #run-img{
     width: 100%;
-    align-items: center;
+    border-radius: 18px;
 }
