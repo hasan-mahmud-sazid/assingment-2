@@ -552,3 +552,248 @@ footer .main-box .rights {
   text-align: center;
   margin: 2rem;
 }
+.middle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.display-flex{
+  display: flex;
+}
+.price-heding{
+  margin-bottom: 20px;
+}
+.middle-pricing{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.price__card{
+  width: 250px;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid transparent;
+  border-radius: 10px;
+  margin: 15px;
+}
+.price__card__content{
+  flex: 1;
+  margin-bottom: 2rem;
+}
+
+.price__card h4 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--white);
+}
+
+.price__card h3 {
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--white);
+  border-bottom: 2px solid var(--white);
+}
+
+.price__card p {
+  margin-bottom: 0.75rem;
+  color: var(--white);
+}
+
+/* Media Quarei Add */
+@media (max-width: 575px) {
+  /* shared styles */
+  .miama-font {
+    font-size: 6rem;
+  }
+
+  .primary-btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.6rem;
+  }
+
+  .secondary-btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.6rem;
+  }
+
+  /* hero section */
+  .hero {
+    height: auto;
+  }
+
+  /* nav bar */
+  .hero nav {
+    width: 90%;
+    align-items: center;
+  }
+  .hero nav img {
+    display: inline;
+    height: 1rem;
+  }
+
+  .hero nav ul {
+    display: none;
+  }
+
+  /* hero box */
+  .hero .hero-box {
+    width: 90%;
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+
+  .hero .hero-box .text h1 {
+    font-size: 3rem;
+  }
+
+  .hero .hero-box .text p {
+    font-size: 0.8rem;
+  }
+
+  /* image section */
+  .hero .hero-box .img img {
+    height: 30rem;
+  }
+
+  .hero .hero-box .img .side-box {
+    border-radius: 0.5rem;
+    backdrop-filter: blur(1rem);
+  }
+
+  .hero .hero-box .img .side-box-top {
+    width: 5rem;
+    top: 12rem;
+    left: 10rem;
+  }
+
+  .hero .hero-box .img .side-box-bottom {
+    top: -10rem;
+    left: 0;
+    width: 8rem;
+  }
+
+  .hero .hero-box .img .side-box .circle {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .hero .hero-box .img .side-box h1 {
+    font-size: 1rem;
+  }
+
+  .hero .hero-box .img .side-box p {
+    font-size: 0.5rem;
+  }
+
+  /*  your habit */
+  .change-habit .main-box {
+    margin: 0 2rem;
+  }
+
+  .change-habit .main-box .skills {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5rem;
+  }
+
+  .change-habit .main-box .skills .cards {
+    max-width: 20rem;
+  }
+
+  .change-habit .main-box .skills .cards img {
+    width: 60%;
+  }
+
+  /* unique section */
+.display-flex {
+  flex-direction: column;
+  align-items: center;
+}
+
+  /* run an extra mile */
+  .run .run-extra {
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 90%;
+    gap: 2rem;
+
+    padding: 3rem 0 1rem 0;
+  }
+
+  .run .run-extra .text,
+  .run .run-extra .img {
+    margin: 0 3rem;
+  }
+
+  .run .run-extra .img {
+    height: auto;
+    width: 90%;
+    object-fit: cover;
+  }
+
+  .run .run-extra .text .title {
+    font-size: 2rem;
+  }
+
+  /* bmi section */
+  .bmi {
+    display: inline-block;
+    margin: 5rem 0;
+  }
+  .bmi .title-text {
+    min-width: 20rem;
+    margin-left: 2rem;
+  }
+
+  .bmi .title-text .title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .bmi .main-box .padding-box {
+    flex-direction: column;
+    padding: 3rem 1rem;
+  }
+
+  /* meet our team */
+  .team .main-box .title-text {
+    padding: 0;
+    margin: 0 1rem;
+  }
+
+  .team .main-box .title-text .title {
+    font-size: 2rem;
+  }
+
+  /* cards */
+  .team .main-box .cards {
+    width: auto;
+    margin: 0 2rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .team .main-box .cards .card .text {
+    top: 17rem;
+  }
+
+  /* footer */
+  footer .main-box {
+    max-width: 992px;
+    padding: 4rem 0 0 2rem;
+  }
+
+  footer .main-box .data {
+    flex-direction: column;
+  }
+
+  footer .main-box .data .links {
+    flex-direction: column;
+  }
+}
+
