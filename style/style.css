@@ -348,7 +348,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin: 10rem 0 5rem 0;
+  margin: 3rem 0 5rem 0;
 }
 
 .bmi .title-text {
@@ -443,9 +443,10 @@ td {
 /* meet our team */
 .team {
   width: 100%;
-  margin: 8rem 0;
+  /* margin: 8rem 0; */
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .team .main-box {
@@ -499,7 +500,7 @@ td {
 /* footer */
 footer {
   width: 100%;
-  margin: 8rem 0 0 0;
+  margin: 3rem 0 0 0;
   display: flex;
   justify-content: center;
   background: var(--hero-bg);
@@ -561,6 +562,7 @@ footer .main-box .rights {
   display: flex;
 }
 .price-heding{
+  margin-top: 58px;
   margin-bottom: 20px;
 }
 .middle-pricing{
